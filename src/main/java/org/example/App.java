@@ -9,12 +9,15 @@ public class App
 {
     public static void main( String[] args )
     {
-
+        //user input
         System.out.println( "What is your name?");
 
         Scanner input = new Scanner(System.in);
         String nameInput = input.next();
+
+        //user output
         String greetingOutput = "Hello " + nameInput + ", nice to meet you!";
+
         System.out.println(greetingOutput);
     }
 }
